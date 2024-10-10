@@ -1,0 +1,26 @@
+<html lang="eng">
+    <head>
+        <title>Bullshit Bingo</title>
+        <link rel="icon" type="image/x-icon" href="pictures/smiley-poop.svg">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <div class="card">
+            <h1 class="headline">Bullshit Bingo</h1>
+            <div id="optionTable" class="option-table">
+            </div>
+        </div>
+
+        <dialog id="winDialog">
+            <div class="dialog-body">
+                <h2>You have won!</h2>
+                <span>Now shout "BINGO!" so that everybody knows.</span>
+                <img class="rotating poop-picutre" src = "pictures/smiley-poop.svg" alt="Poop smiley"/>
+                <button autofocus onclick="closeDialog()">Close</button>
+            </div>
+        </dialog>
+
+    </body>
+    <script src="script.js" defer></script>
+</html>
